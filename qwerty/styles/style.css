@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.list-item {
+  list-style: none;
+  position: absolute;
+  top: 63px;
+}
+
+.nav-link:hover,
+.link:hover {
+  color: #a1ffff;
+}
+
+.logo,
+.title {
+  font-family: "Viga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo-subtitle {
+  opacity: 0.5;
+  position: absolute;
+  top: 55px;
+  left: 156px;
+}
+
+.logo-image {
+  position: absolute;
+  width: 50px;
+  top: 56px;
+  left: 100px;
+}
+
+.logo-title {
+  position: absolute;
+  top: 38px;
+  left: 156px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 30px;
+}
+
+.material-symbols-outlined {
+  font-size: 15px;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+}
+
+.back {
+  transform: rotate(180deg);
+  left: 50px;
+}
+
+.forward {
+  right: 50px;
+}
+
+.undertitle {
+  font-size: 20px;
+  position: absolute;
+  left: 100px;
+  top: 230px;
+}
+
+.title {
+  position: absolute;
+  font-size: 140px;
+  top: 165px;
+  left: 88px;
+}
+
+.subtitle {
+  position: absolute;
+  font-size: 20px;
+  opacity: 0.5;
+  top: 428px;
+  left: 100px;
+  line-height: 30px;
+}
+
+.link {
+  position: absolute;
+  font-size: 23px;
+  top: 550px;
+  left: 100px;
+  transition: 0.5s;
+}
+
+.arrow {
+  position: absolute;
+  top: 750px;
+}
+
+.light,
+.search {
+  top: 69px;
+  position: absolute;
+}
+
+.light {
+  left: 1441px;
+}
+
+.search {
+  left: 1370px;
+}
+
+.item1 {
+  left: 528px;
+}
+
+.item2 {
+  left: 619px;
+}
+
+.item3 {
+  left: 713px;
+}
+
+.item4 {
+  left: 797px;
+}
+
+.item5 {
+  left: 891px;
+}
+
+.item6 {
+  left: 1000px;
+}
+
+.slider-line {
+  position: absolute;
+  margin-top: 767px;
+  width: 40%;
+  left: 30%;
+}
